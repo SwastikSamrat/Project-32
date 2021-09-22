@@ -52,7 +52,7 @@ async function getBackgroundImg(){
     //fetch datetime from responseJSON
     var datetime = responsejson.datetime;
     // slice the datetime to extract hour
-    var hour=datetime.slice(12,14);
+     hour=datetime.slice(11,13);
    
 
     
